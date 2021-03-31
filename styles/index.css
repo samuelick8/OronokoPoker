@@ -167,6 +167,7 @@ section h1 {
     padding-left: 25px;
     text-align:center;
     display:block;
+    position: relative;
 }
   .box h1 {
       text-align: center;
@@ -189,12 +190,4 @@ body {
     position: absolute;
     bottom: 0;
     left: 665px;
-}
-img {
-    height: 1000px;
-    width: 1000px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
