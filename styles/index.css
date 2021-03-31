@@ -76,7 +76,7 @@ ol, ul{
      
 .container{    
     margin: 0px auto;
-    width: 1200px;
+    width: 1400px;
 }
 header {
     overflow: hidden;
@@ -91,7 +91,6 @@ header {
     padding: none;
     margin: none;
     height: 60px;
-    width: 30%;
 }
 .logo img {
     width: 60%;
@@ -100,7 +99,7 @@ header {
 }
 .menu {
     float: right;
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin: none;
 }
