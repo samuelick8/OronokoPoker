@@ -168,9 +168,9 @@ section h1 {
     padding: 1.5em 1em;
     width: 300px;
     height: 400px;
-    position: relative;
-    left: 265px;
-    background-color: dimgray;
+    background-color:lightgreen;
+    margin: auto;
+    padding-left: 25px;
 }
   .box h1 {
       text-align: center;
@@ -180,10 +180,10 @@ section h1 {
     margin-top: 4em;
     height: 6em;
     text-align: justify;
-    color: goldenrod;
+    color: black;
   }
 body {
-    background-color:lightslategray;
+    background-color: dimgray;
 }
 .footer {
     padding:10px;
@@ -193,4 +193,8 @@ body {
     position: absolute;
     bottom: 0;
     left: 665px;
+}
+img {
+    height: 448px;
+    width: 448px;
 }
