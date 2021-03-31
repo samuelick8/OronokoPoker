@@ -49,12 +49,18 @@ body{
     font-size: 12pt;
 }
          
-h1, h2, h3{
+h1, h2 {
     margin: 0;
     padding: 0;
     color: #404040;
+    font-family:monospace ;
 }
-     
+h3 {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    font-style:italic;
+}
 p, ol, ul{
     margin-top: 0;
 }
@@ -139,88 +145,52 @@ h3 {
     font-size: 42px;
 }
 .about {
-    background:#0b0b0b;
+    background:steelblue;
     padding: 50px;
     border-width: 2px;
     border-style: solid;
-    border-color: lawngreen;
+    border-color:blueviolet;
 }
 p1 {
     color: lawngreen;
     font-size: 24px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.recommend {
-    padding:30px;
-    color: lawngreen;
-    background:#0b0b0b;
-    border-width: 2px;
-    border-style: solid;
-    border-color: lawngreen;
+section {
+    margin: 1em 0;
 }
-a.recommendations {
-    font-size: 32px;
-    color:lightseagreen;
+section h1 {
+    text-transform: uppercase;
 }
-.strat {
-    padding:30px;
-    color: lawngreen;
-    background:#0b0b0b;
-    border-width: 2px;
-    border-style: solid;
-    border-color: lawngreen;
+.box {
+    float: left;
+    padding: 1.5em 1em;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left: 265px;
+    background-color: dimgray;
 }
-a.strategy {
-    font-size: 32px;
-    color:lightseagreen;
-}
-.hand {
-    padding:30px;
-    color: lawngreen;
-    background:#0b0b0b;
-    border-width: 2px;
-    border-style: solid;
-    border-color: lawngreen;
-}
-a.handreview {
-    font-size: 32px;
-    color:lightseagreen;
-}
-.forum {
-    padding:30px;
-    color: lawngreen;
-    background:#0b0b0b;
-    border-width: 2px;
-    border-style: solid;
-    border-color: lawngreen;
-}
-a.pforum {
-    font-size: 32px;
-    color:lightseagreen;
+  .box h1 {
+      text-align: center;
+      color: lawngreen;
+    }
+  .box p {
+    margin-top: 4em;
+    height: 6em;
+    text-align: justify;
+    color: goldenrod;
+  }
+body {
+    background-color:lightslategray;
 }
 .footer {
     padding:10px;
     color:mediumblue;
     background:lightslategrey;
     text-align: center;
-}
-p2 {
-    color: lawngreen;
-    font-size: 24px;
-    text-align: center;
-}
-p3 {
-    color: lawngreen;
-    font-size: 24px;
-    text-align: center;
-}
-p4 {
-    color: lawngreen;
-    font-size: 24px;
-    text-align: center;
-}
-p5 {
-    color: lawngreen;
-    font-size: 24px;
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 665px;
 }

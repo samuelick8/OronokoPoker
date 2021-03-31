@@ -1,0 +1,294 @@
+.header-image-menu {
+    top: 10px;
+    position: relative;
+}
+.header-image-menu img {
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+.image-text {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: red;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
+
+header {background-color: #0b0b0b;}
+
+p1 {
+    font-family: fantasy;
+    font-size: 36px;
+    color: lawngreen;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.logo {
+    background-color: #0b0b0b;
+}
+.header {
+    background-color: #0b0b0b;
+}
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{    
+    margin: 0px auto;
+    width: 1200px;
+}
+header {
+    overflow: hidden;
+}
+
+.top-header {
+    text-align: center;
+    height: 60px;
+}
+.logo {
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+.logo img {
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}
+.menu {
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+     
+.menu ul {
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #0074D9;
+}
+     
+.menu li {
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+.menu li a, .menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+.menu li a{
+         
+    color: #FFF;
+}
+     
+.menu li:hover a, .menu li span{
+    background: #FFF;
+    color: #0074D9;
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+body {
+    background-color: cadetblue;
+}
+p2 {
+    font-size: 24px;
+    text-align: center;
+}
+.utg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.utg1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.utg2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.mp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.hj {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.co {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.bu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+.sb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    padding-bottom: 50px;
+}
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-size: 45px;
+}
+
+p3 {
+    position: absolute;
+    top: 700px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p4 {
+    position: absolute;
+    top: 1450px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p5 {
+    position: absolute;
+    top: 2235px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p6 {
+    position: absolute;
+    top: 2985px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p7 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 3835px;
+    text-align: center;
+}
+p8 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 4655px;
+    text-align: center;
+}
+p9 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 5555px;
+    text-align: center;
+}
+p10 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 6375px;
+    text-align: center;
+}
+.positions {
+    position: absolute;
+    left: 1440px;
+    top: 685px;
+    height: 252px;
+    width: 450px;
+}
+.ep {
+    position: absolute;
+    left: 1440px;
+    top: 1385px;
+    height: 252px;
+    width: 450px;
+}
+.two {
+    position: absolute;
+    left: 1540px;
+    top: 2155px;
+}
+.strength {
+    position: absolute;
+    left: 1510px;
+    top: 2855px;
+    height: 424px;
+    width: 310px;
+}
+.connectors {
+    position: absolute;
+    left: 1540px;
+    top: 3795px;
+}
+.stats {
+    position: absolute;
+    left: 1458px;
+    top: 4650px;
+}
+.dealer {
+    position: absolute;
+    left: 1535px;
+    top: 5525px;
+}
+.smallblind {
+    position: absolute;
+    left: 1550px;
+    top: 6345px;
+}
+.footer {
+    padding:10px;
+    color:mediumblue;
+    background:lightslategrey;
+    text-align: center;
+}
