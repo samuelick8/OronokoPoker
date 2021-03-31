@@ -26,7 +26,7 @@ p100 {
     color: lawngreen;
     position: relative;
     top: 10px;
-    left: 160px;
+    padding-left: 50px;
 }
 
 .logo {
@@ -91,11 +91,6 @@ header {
     padding: none;
     margin: none;
     height: 60px;
-}
-.logo img {
-    width: 60%;
-    float: left;
-    padding: 10px 0px;
 }
 .menu {
     float: right;
@@ -170,6 +165,8 @@ section h1 {
     background-color:lightgreen;
     margin: auto;
     padding-left: 25px;
+    text-align:center;
+    display:block;
 }
   .box h1 {
       text-align: center;
@@ -194,6 +191,10 @@ body {
     left: 665px;
 }
 img {
-    height: 448px;
-    width: 448px;
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
