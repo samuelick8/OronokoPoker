@@ -135,6 +135,7 @@ iframe {
     position: relative;
     top: 200px;
     left: 50px;
+    float: left;
 }
 h1 {
     position: relative;

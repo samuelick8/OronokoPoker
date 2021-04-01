@@ -164,7 +164,6 @@ section h1 {
     height: 400px;
     background-color:lightgreen;
     margin: auto;
-    padding-left: 25px;
     text-align:center;
     display:block;
     position: relative;
@@ -187,7 +186,11 @@ body {
     background:lightslategrey;
     text-align: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     width: 100%;
     padding: 10px;
+}
+.pages {
+    position: relative;
+    width: 100%;
 }

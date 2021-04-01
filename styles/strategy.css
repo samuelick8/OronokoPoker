@@ -135,9 +135,7 @@ ul, h1 {
     text-align: center;
     vertical-align: middle;
 }
-img.checklist {
-    vertical-align: center;
-}
+
 .preflop {
     border: 6px solid blue;
     background-color: cadetblue;
@@ -154,8 +152,7 @@ img.avatar {
     border-bottom: 6px solid blue;
     background-color: cadetblue;
 }
-.manage {
-}
+
 .more {
     text-align: center;
     font-size: 28px;
