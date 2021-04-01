@@ -48,18 +48,13 @@ body{
     font-size: 12pt;
 }
          
-h1, h2 {
+h1 {
     margin: 0;
     padding: 0;
     color: #404040;
     font-family:monospace ;
 }
-h3 {
-    margin: 0;
-    padding: 0;
-    font-family:cursive;
-    font-style:italic;
-}
+
 p, ol, ul{
     margin-top: 0;
 }
@@ -202,32 +197,29 @@ p2 {
 h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p3 {
     position: absolute;
-    top: 700px;
     text-align: center;
     color: white;
     font-size: 20px;
 }
 p4 {
     position: absolute;
-    top: 1450px;
     text-align: center;
     color: white;
     font-size: 20px;
 }
 p5 {
     position: absolute;
-    top: 2235px;
     text-align: center;
     color: white;
     font-size: 20px;
 }
 p6 {
     position: absolute;
-    top: 2985px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -236,75 +228,71 @@ p7 {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 3835px;
     text-align: center;
 }
 p8 {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 4655px;
     text-align: center;
 }
 p9 {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 5555px;
     text-align: center;
 }
 p10 {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 6375px;
     text-align: center;
 }
 .positions {
     position: absolute;
     left: 1440px;
-    top: 685px;
+    top: 465px;
     height: 252px;
     width: 450px;
 }
 .ep {
     position: absolute;
     left: 1440px;
-    top: 1385px;
+    top: 1205px;
     height: 252px;
     width: 450px;
 }
 .two {
     position: absolute;
     left: 1540px;
-    top: 2155px;
+    top: 1980px;
 }
 .strength {
     position: absolute;
     left: 1510px;
-    top: 2855px;
+    top: 2785px;
     height: 424px;
     width: 310px;
 }
 .connectors {
     position: absolute;
     left: 1540px;
-    top: 3795px;
+    top: 3645px;
 }
 .stats {
     position: absolute;
     left: 1458px;
-    top: 4650px;
+    top: 4500px;
 }
 .dealer {
     position: absolute;
     left: 1535px;
-    top: 5525px;
+    top: 5365px;
 }
 .smallblind {
     position: absolute;
     left: 1550px;
-    top: 6345px;
+    top: 6235px;
 }
 .footer {
     padding:10px;
