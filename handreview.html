@@ -30,15 +30,11 @@
 </header>
 <body>
   <h1>Hand #1 9-Max .25-.50 Cent</h1>
+  <h4>Click on the Arrow to get analysis for every street</h4>
+  <img id="nextArrow" src="images/arrow.png" title="Next Arrow" alt="Next">
   <iframe width="874" height="492" src="https://www.youtube.com/embed/qK7wlQ6HIZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <h2>Preflop</h2>
-  <p2>It folds to late position, and effective cutoff opens 3x. He is a tighter player who does not play many hands, and is not typically aggressive postflop. Because of that, I definitely am always three-betting kings out of position to start building a pot. I do not want to go too big because he is on the tighter side, so I go for the small sizing of 3.3x.</p2>
-  <h3>Flop</h3>
-  <p3>On this flop, there are no flush draws and no relevant straight draws (I never expect to see a tight player show up with 8-6 or 6-4 here), so he is polarized to a few sets, a few middling pairs, a queen, or nothing. Due to this, I like checking to him to keep his entire range in. If he has a queen, he will likely be betting anyway, and I want to allow him to spew some money if he does have nothing. When he bets small I think raising scares off everything I want value from and gets continues from mainly sets, so I just call. </p3>
-  <h4>Turn</h4>
-  <p4>On this turn, I think it is overall bad for his range. He either has a bare queen (I block all but one combo of K-Q offsuit which is very unlikely), some draws that will likely semi-bluff, sets, and middling pairs that want to get to show down. I want to allow him to continue betting and his showdown hands are likely drawing dead to me, so I check. When he bets large, this changes my perception of his range completely. He never does this with a queen and he has no two pairs on this board, so it is farily obvious he either has a set or a picked up spade/straight draw. As a result, I want to stack all of his sets and deny equity/charge the maximum to draws, so I have a slam dunk all in.</p4>
-  <h5>Overall Hand Analysis</h5>
-  <p5>At the end of the day, this hand was simply a cooler. He should never be folding a set in that spot, and I held the nuts on the turn and was obviously looking to stack off. However, I think this hand shows the importance of constantly adapting your perceived range. If the turn was a brick and the river was a brick, I am still able to get away from Kings against a tight player. On the turn, he kind of telegraphed his hand face up, which would of allowed me to make some hero folds either there or on the river had I not improved. It is important to note that players rarely overplay one pair hands, and on this board, the only value he has are sets. The key to winning at poker at lower stakes is not outplaying your opponents by bluffing all the time or making crazy plays, but rather by minimizing losses in cooler situations (I would not have gotten stacked if the turn was not a king). It is extremely hard to stack off 100BB deep at this stake, so make sure you are on the right side of the cooler before you do so.</p5>
+  <h2 id="next">Preflop</h2>  
+  <h3 id="change" class="change">It folds to late position, and effective cutoff opens 3x. He is a tighter player who does not play many hands, and is not typically aggressive postflop. Because of that, I definitely am always three-betting kings out of position to start building a pot. I do not want to go too big because he is on the tighter side, so I go for the small sizing of 3.3x.</h3>
   <div class="footer">
     <p6>Samuel Ick &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p6>
     <a class="email" href= "mailto: samuelick8@gmail.com">samuelick8@gmail.com</a>
@@ -47,5 +43,25 @@
     <p7>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p7>
     <a class="twitch" href="https://www.twitch.tv/oronokopoker">Twitch</a>
   </div>
+  <script>
+      let streetArray = ['Preflop', 'Flop', 'Turn', 'Overall Hand Analysis']
+      let analysisArray = ['It folds to late position, and effective cutoff opens 3x. He is a tighter player who does not play many hands, and is not typically aggressive postflop. Because of that, I definitely am always three-betting kings out of position to start building a pot. I do not want to go too big because he is on the tighter side, so I go for the small sizing of 3.3x.', 'On this flop, there are no flush draws and no relevant straight draws (I never expect to see a tight player show up with 8-6 or 6-4 here), so he is polarized to a few sets, a few middling pairs, a queen, or nothing. Due to this, I like checking to him to keep his entire range in. If he has a queen, he will likely be betting anyway, and I want to allow him to spew some money if he does have nothing. When he bets small I think raising scares off everything I want value from and gets continues from mainly sets, so I just call.', 'On this turn, I think it is overall bad for his range. He either has a bare queen (I block all but one combo of K-Q offsuit which is very unlikely), some draws that will likely semi-bluff, sets, and middling pairs that want to get to show down. I want to allow him to continue betting and his showdown hands are likely drawing dead to me, so I check. When he bets large, this changes my perception of his range completely. He never does this with a queen and he has no two pairs on this board, so it is farily obvious he either has a set or a picked up spade/straight draw. As a result, I want to stack all of his sets and deny equity/charge the maximum to draws, so I have a slam dunk all in.', 'At the end of the day, this hand was simply a cooler. He should never be folding a set in that spot, and I held the nuts on the turn and was obviously looking to stack off. However, I think this hand shows the importance of constantly adapting your perceived range. If the turn was a brick and the river was a brick, I am still able to get away from Kings against a tight player. On the turn, he kind of telegraphed his hand face up, which would of allowed me to make some hero folds either there or on the river had I not improved. It is important to note that players rarely overplay one pair hands, and on this board, the only value he has are sets. The key to winning at poker at lower stakes is not outplaying your opponents by bluffing all the time or making crazy plays, but rather by minimizing losses in cooler situations (I would not have gotten stacked if the turn was not a king). It is extremely hard to stack off 100BB deep at this stake, so make sure you are on the right side of the cooler before you do so.']
+      let colorArray = ['midnightblue', 'blueviolet', 'dodgerblue', 'indigo']
+      let tracker = document.getElementById("next");
+      let analysis = document.getElementById("change");
+      let counter = 0;
+      function nextStreet() {
+          counter = (counter + 1) % streetArray.length;
+          tracker.innerHTML = streetArray[counter];
+          tracker.style.color = colorArray[counter];
+          analysis.innerHTML = analysisArray[counter];
+          analysis.style.color = colorArray[counter];
+      }
+
+
+      document.getElementById("nextArrow").onclick = function () {
+          nextStreet();
+      }
+  </script>
 </body>
 
