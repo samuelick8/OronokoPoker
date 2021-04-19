@@ -133,8 +133,6 @@ header {
 }
 iframe {
     padding: 30px;
-    position: relative;
-    left: 25%;
 }
 
 .footer {
@@ -165,7 +163,8 @@ h4 {
 img {
     padding: 25px;
     position: absolute;
-    top: 15%;
+    left: 50%;
+    top: 70%;
 }
 h2 {
     font-size: 36px;

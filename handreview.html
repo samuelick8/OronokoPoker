@@ -37,7 +37,7 @@
   <h3 id="change" class="change">It folds to late position, and effective cutoff opens 3x. He is a tighter player who does not play many hands, and is not typically aggressive postflop. Because of that, I definitely am always three-betting kings out of position to start building a pot. I do not want to go too big because he is on the tighter side, so I go for the small sizing of 3.3x.</h3>
   <img id="nextArrow" src="images/arrow.png" title="Next Arrow" alt="Next">
   <iframe width="874" height="492" src="https://www.youtube.com/embed/qK7wlQ6HIZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <h5>More coming soon!</h5>
+  <h5>More coming soon</h5>
   <h6>Check back for more hands this summer!</h6>
   <div class="footer">
     <p6>Samuel Ick &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p6>
@@ -53,13 +53,13 @@
       let colorArray = ['midnightblue', 'blueviolet', 'dodgerblue', 'indigo']
       let tracker = document.getElementById("next");
       let analysis = document.getElementById("change");
-      let counter = 0;
+      let i = 0;
       function nextStreet() {
-          counter = (counter + 1) % streetArray.length;
-          tracker.innerHTML = streetArray[counter];
-          tracker.style.color = colorArray[counter];
-          analysis.innerHTML = analysisArray[counter];
-          analysis.style.color = colorArray[counter];
+          i = (i + 1) % streetArray.length;
+          tracker.innerHTML = streetArray[i];
+          tracker.style.color = colorArray[i];
+          analysis.innerHTML = analysisArray[i];
+          analysis.style.color = colorArray[i];
       }
 
 
