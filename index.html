@@ -38,29 +38,89 @@
 <div class="pages">
 <section class="sec-boxes">
     <div class="box">
-      <h1><a class="recommendations" href="recommendations.html">Recommendations</a></h1>
-      <p>Here I will outline all of my poker related recommendations whether it be courses, study tools, or software. This will include my experience plus pros and cons with each recommendation.</p>
+      <h1 id="recommendations"><a class="recommendations" href="recommendations.html">Recommendations</a></h1>
+      <p2 id="one"></p>
     </div>
     <div class="box">
-      <h1><a class="strategy" href="strategy.html">Strategy Articles</a></h1>
-      <p>Here I will post in-depth strategy articles. This includes 9-Max NLHE Tournament and Cash Games strategy, and will be my fully fleshed out strategy in different areas of Poker.</p>
+      <h1 id="strategy"><a class="strategy" href="strategy.html">Strategy Articles</a></h1>
+      <p2 id="two"></p>
     </div>
     <div class="box">
-      <h1><a class="handreview" href="handreview.html">Hand Reviews</a></h1>
-      <p>Here I will post interesting hands that I have played or others have submitted for review and go into deep analysis of how the hand was played. Submit your interesting hands and I will review and post here!</p>
+      <h1 id="handreview"><a class="handreview" href="handreview.html">Hand Reviews</a></h1>
+      <p2 id="three"></p>
     </div>
     <div class="box">
-      <h1><a class="pforum" href="preflop.html">Preflop Charts</a></h1>
-      <p>Here is where I give beginners a base very straightforward, linear preflop strategy. If you know nothing about Poker, start here and follow the charts closely. They show you what you can profitably play from every position. Preflop charts are essential to any players game, and knowing your ranges is essential to progressing as a player.</p>
+      <h1 id="preflop"><a class="pforum" href="preflop.html">Preflop Charts</a></h1>
+      <p2 id="four"></p>
     </div>
 </div>
 </section>
-<img href="images"
-<br>
+<img id="img" src="images/AVATAR.png" title="MyLogo" alt="OronokoPokerLogo">
 <div class="footer">
     <p6>Samuel Ick</p6>
     <a class="email" href= "mailto: samuelick8@gmail.com">samuelick8@gmail.com</a>
     <a class="sitemap" href="sitemap.html">Sitemap</a>
     <a class="twitch" href="https://www.twitch.tv/oronokopoker">Twitch</a>
 </div>
+<script>
+    function displayOne () {
+        let textChange = document.getElementById("one");
+        textChange.innerHTML = "Here I will outline all of my poker related recommendations whether it be courses, study tools, or software. This will include my experience plus pros and cons with each recommendation.";
+    }
+    function hideOne () {
+        let textChange = document.getElementById("one");
+        textChange.innerHTML = "";
+    }
+    function displayTwo () {
+        let textChange = document.getElementById("two");
+        textChange.innerHTML = "Here I will post in-depth strategy articles. This includes 9-Max NLHE Tournament and Cash Games strategy, and will be my fully fleshed out strategy in different areas of Poker.";
+    }
+    function hideTwo () {
+        let textChange = document.getElementById("two");
+        textChange.innerHTML = "";
+    }
+    function displayThree () {
+        let textChange = document.getElementById("three");
+        textChange.innerHTML = "Here I will post interesting hands that I have played or others have submitted for review and go into deep analysis of how the hand was played. Submit your interesting hands and I will review and post here!";
+    }
+    function hideThree () {
+        let textChange = document.getElementById("three");
+        textChange.innerHTML = "";
+    }
+    function displayFour () {
+        let textChange = document.getElementById("four");
+        textChange.innerHTML = "Here is where I give beginners a base, straightforward, linear preflop strategy. If you know nothing about Poker, start here and follow the charts closely. They show you what you can profitably play from every position. Preflop charts are essential to any player's game, and knowing your ranges is essential to progressing as a player.";
+    }
+    function hideFour () {
+        let textChange = document.getElementById("four");
+        textChange.innerHTML = "";
+    }
+    document.getElementById("recommendations").onmouseover = function () {
+        displayOne();
+    }
+    document.getElementById("recommendations").onmouseout = function () {
+        hideOne();
+    }
+    document.getElementById("strategy").onmouseover = function () {
+        displayTwo();
+    }
+    document.getElementById("strategy").onmouseout = function () {
+        hideTwo();
+    }
+    document.getElementById("handreview").onmouseover = function () {
+        displayThree();
+    }
+    document.getElementById("handreview").onmouseout = function () {
+        hideThree();
+    }
+    document.getElementById("preflop").onmouseover = function () {
+        displayFour();
+    }
+    document.getElementById("preflop").onmouseout = function () {
+        hideFour();
+    }
+    document.getElementById("img").onmouseover = function () {
+        invite();
+    }
+</script>
 </body>
