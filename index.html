@@ -95,6 +95,14 @@
         let textChange = document.getElementById("four");
         textChange.innerHTML = "";
     }
+    function switchImage () {
+        let image = document.getElementById("img");
+        image.src = "images/LOGO.png";
+    }
+    function revertImage () {
+        let image = document.getElementById("img");
+        image.src = "images/AVATAR.png"
+    }
     document.getElementById("recommendations").onmouseover = function () {
         displayOne();
     }
@@ -120,7 +128,10 @@
         hideFour();
     }
     document.getElementById("img").onmouseover = function () {
-        invite();
+        switchImage();
+    }
+    document.getElementById("img").onmouseout = function () {
+        revertImage();
     }
 </script>
 </body>
